@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/stylesheet.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="margin">
+    <form>
+      <fieldset>
+        <legend>Kontakta mig</legend><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <br>
+        <br>
+        <label for="fname">Förnamn:</label>
+        <input type="text" id="fname" name="fname">
+        <br>
+        <br>
+        <label for="lname">Efternamn:</label>
+        <input type="text" id="lname" name="lname">
+        <br>
+        <br>
+        <label for="tel">Telefonnummer:</label>
+        <input type="tel" id="tel" name="tel" pattern="[0-9]{3}-[0-9]{7}" placeholder="073-0000000">
+        <br>
+        <br>
+        <p>Orsak till kontakt:</p>
+        <label for="privat">Privat ärende</label>
+        <input type="radio" id="privat" name="orsak" value="privat">
+        <br>
+        <br>
+        <label for="affarer">Företagsärende</label>
+        <input type="radio" id="affarer" name="orsak" value="affarer">
+        <br>
+        <br>
+        <input type="submit" value="Skicka">
+      </fieldset>
+    </form>
+
+    <div class="left">
+      <a class="links" href="../index.html">Hem</a>
+    </div>
+    <div class="right">
+      <a class="links" href="./inspiration.html">Inspiration</a>
+    </div>
+  </div>
+</body>
+
+</html>
